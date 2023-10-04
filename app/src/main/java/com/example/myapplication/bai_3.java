@@ -1,8 +1,5 @@
 package com.example.myapplication;
 
-import static com.example.myapplication.R.id.NhapN;
-import static com.example.myapplication.R.id.ketqua;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -11,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class TinhgiaithuaActivity extends AppCompatActivity {
+public class bai_3 extends AppCompatActivity {
     EditText textNhapN;
     Button buttonTinh;
     TextView textKQ;
@@ -36,7 +33,7 @@ public class TinhgiaithuaActivity extends AppCompatActivity {
                     kQ *= i;
                 }
 
-                textKQ.setText("kết quả " + kQ);
+                textKQ.setText( intN +"! =" + kQ);
 
             }
         });

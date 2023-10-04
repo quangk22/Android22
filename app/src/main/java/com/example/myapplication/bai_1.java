@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class bai_1 extends AppCompatActivity {
     TextView userName;
     TextView password;
     Button buttonLogin;

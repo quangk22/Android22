@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class theme_tinhtoan extends AppCompatActivity {
+public class bai_2 extends AppCompatActivity {
     EditText soA;
-    EditText phepTinhInput; // Đổi tên biến phepTinh thành phepTinhInput
+    EditText phepTinhInput;
     EditText soB;
     Button tinh;
     TextView ketqua;
@@ -21,7 +21,7 @@ public class theme_tinhtoan extends AppCompatActivity {
         setContentView(R.layout.activity_theme_tinhtoan);
         soA = (EditText) findViewById(R.id.soA);
         soB = (EditText) findViewById(R.id.soB);
-        phepTinhInput = (EditText) findViewById(R.id.phepTinh); // Đổi tên EditText thành phepTinhInput
+        phepTinhInput = (EditText) findViewById(R.id.phepTinh);
         tinh = (Button) findViewById(R.id.buttonTinh);
         ketqua = (TextView) findViewById(R.id.ketqua);
 
@@ -30,7 +30,7 @@ public class theme_tinhtoan extends AppCompatActivity {
             public void onClick(View view) {
                 String num1Str = soA.getText().toString();
                 String num2Str = soB.getText().toString();
-                String phepTinh = phepTinhInput.getText().toString(); // Sử dụng phepTinhInput
+                String phepTinh = phepTinhInput.getText().toString();
 
 
                 float fSoA = Float.parseFloat(num1Str);
